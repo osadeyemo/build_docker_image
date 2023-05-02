@@ -5,7 +5,7 @@ phases:
     runtime-versions:
       python: 3.x
 
-  pre-build:
+  pre_build:
     commands:
       - chmod +x build_image.sh push-image.sh
       - ./build_image.sh
