@@ -7,7 +7,7 @@ RUN yum update -y && \
     yum install wget -y && \
     yum install unzip -y
 
-# change directori
+# change directory
 RUN cd /var/www/html
 
 # download webfiles
